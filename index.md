@@ -29,4 +29,3 @@ During this project, I analyzed New York Stock Exchange data using Summary Stati
 - [Udacity's Business Analyst Certificate](confirm.udacity.com/e/c7281c52-8df1-11ee-9566-03cf0591635b)
 - [Coursera Google Business Intelligence](https://www.coursera.org/account/accomplishments/professional-cert/Q6NYMNH7WZM8)
 - [Udemy Python with Pandas](https://www.udemy.com/certificate/UC-7a36baf2-ec06-4f47-8b64-796c357ea66f/)
----

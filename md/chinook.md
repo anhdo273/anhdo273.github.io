@@ -1,7 +1,7 @@
 ## Udacity’s SQL Chinook Music Database
 The SQL queries that I used during the project and the corresponding questions can be found below:
 
-- Who is writing the rock music?
+### Who is writing the rock music?
 ```sql
 SELECT
     a.ArtistId,
@@ -23,7 +23,8 @@ LIMIT
     10;
 ```
 
-- First, find which artist has earned the most according to the InvoiceLines? Afterwards use this artist to find which customer spent the most on this artist.
+### Which artist has earned the most according to the InvoiceLines? Which customer spent the most on this artist
+
 ```sql
 WITH artist_earning AS (
     SELECT
@@ -66,7 +67,7 @@ ORDER BY
 
 ```
 
-- The most popular music Genre for each country
+### The most popular music Genre for each country
 ```sql
 WITH tb AS (
     SELECT
@@ -106,7 +107,7 @@ FROM
     AND tb.Country = mp.Country
 ```
 
-- The highest amount of money spent on music per country
+### The highest amount of money spent on music per country
 ```sql
 WITH tb as (
     SELECT
